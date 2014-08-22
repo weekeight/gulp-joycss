@@ -3,7 +3,7 @@ var path = require('path'),
 	less = require('less'),
     gutil = require('gulp-util'),
 	through2 = require('through2'),
-	joycss = require('joycss'),
+	joycss = require('./joycss/lib/index'),
 	PluginError = gutil.PluginError;
 
 const PLUGIN_NAME = 'gulp-joycss';
